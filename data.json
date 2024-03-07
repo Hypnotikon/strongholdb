@@ -1,0 +1,52 @@
+[
+  {
+    "bomber": 4,
+    "archer": 1,
+    "box": true,
+    "monikaFinisher": true,
+    "scoreTeam": 425,
+    "scoreOponent": 160,
+    "time": 127,
+    "win": true
+  },
+  {
+    "bomber": 5,
+    "archer": 0,
+    "box": false,
+    "monikaFinisher": true,
+    "scoreTeam": 435,
+    "scoreOponent": 95,
+    "time": 141,
+    "win": true
+  },
+  {
+    "bomber": 4,
+    "archer": 0,
+    "box": false,
+    "monikaFinisher": false,
+    "scoreTeam": 425,
+    "scoreOponent": 110,
+    "time": 144,
+    "win": true
+  },
+  {
+    "bomber": 5,
+    "archer": 0,
+    "box": false,
+    "monikaFinisher": false,
+    "scoreTeam": 625,
+    "scoreOponent": 170,
+    "time": 815,
+    "win": false
+  },
+  {
+    "bomber": 4,
+    "archer": 0,
+    "box": false,
+    "monikaFinisher": false,
+    "scoreTeam": 515,
+    "scoreOponent": 130,
+    "time": 354,
+    "win": false
+  }
+]

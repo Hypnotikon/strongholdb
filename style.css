@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: rgb(90 90 90/ 0.2);
+  font-size: 3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+  border: 2px solid black;
+  flex-direction: column;
+}
+
+form > * {
+  cursor: pointer;
+}
+
+input {
+  width: 40rem;
+  border-radius: 5%;
+  border-radius: 10px;
+  height: 5rem;
+  font-size: 3rem;
+}
+
+input::placeholder {
+  margin-left: 1rem;
+}
+
+button {
+  font-size: 4rem;
+  font-family: 'Ojuju';
+  border-radius: 15px;
+  padding: 2rem 5rem;
+  font-weight: 600;
+  text-shadow: 0 0 5px rgb(119, 114, 47);
+  box-shadow: 10px 10px 10px solid red;
+  transition: transform 200ms linear;
+  margin-top: 1rem;
+}
+
+button:hover {
+  transform: translateY(-0.1rem);
+}

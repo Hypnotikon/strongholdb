@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Stronghold </title>
+</head>
+
+<body>
+    <a href="https://www.youtube.com/">click</a>
+    <form action="/completed" method="POST">
+
+        <label for="bombers">bombers</label>
+        <input type="number" min="0" max="5" id="bombers" required name="bomber">
+        <label for="archers">archers</label>
+        <input type="number" min="0" max="5" id="archers" required name="archer">
+        <label for="score">Our score</label>
+        <input type="number" id="score" required min="0" max="800" name="scoreTeam">
+        <label for="scoreOponent">Their score</label>
+        <input type="number" id="scoreOponent" required min="0" max="800" name="scoreOponent">
+        <label for="time">Time </label>
+
+
+        <input type="time" id="time" max="15:00" required name="time">
+
+        <label for="guards">Guards behind the crates</label>
+        <input type="checkbox" id="guards" required name="box">
+        <label for="finish">Lord finished by Opakovatelka</label>
+        <input type="checkbox" id="finish" required name="monikaFinisher">
+        <label for="win">Win</label>
+        <input type="checkbox" id="win" required name="win">
+        <button type="submit">Submit </button>
+
+    </form>
+</body>
+
+</html>
